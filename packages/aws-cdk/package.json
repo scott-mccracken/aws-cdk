@@ -45,7 +45,8 @@
         "0BSD"
       ],
       "dontAttribute": "^@aws-cdk/|^cdk-assets$",
-      "test": "bin/cdk --version"
+      "test": "bin/cdk --version",
+      "entryPoints": ["lib/index.js"]
     }
   },
   "author": {
